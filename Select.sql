@@ -10,7 +10,9 @@ from employee_demographics;
 select distinct first_name
 from employee_demographics;
 
-select distinct gender
+select distinct first_name, gender
 from employee_demographics;
 
 select salary , salary+2000 as increatment from employee_salary;
+
+
