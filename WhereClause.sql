@@ -17,7 +17,7 @@ select * from employee_demographics where birth_date >="1985-01-01" or not gende
 
 SELECT * 
 FROM employee_demographics 
-WHERE (first_name = 'Leslie' AND age = 44) OR age > 55;
+WHERE (first_name = 'Lesl' AND age = 44) OR age > 55;
 #Without parentheses, SQL evaluates AND before OR by default due to operator precedence.
 select * from employee_demographics where first_name like "A%";
 select * from employee_demographics where first_name like "A___";
